@@ -121,6 +121,12 @@ list(map(list, zip(*mylist)))
 
 
 
+### replace
+
+- 문자열 중 첫 문자만 변경하고 싶을 때 :  `기존문자열.replace(바꾸고 싶은 문자열,'',1) `
+
+  ex) 'abab' -> 'ab'   =>   'abab'.replace('ab','',1)
+
 
 
 # SQL
@@ -258,4 +264,6 @@ SELECT (@hour := @hour + 1) as HOUR,
 FROM ANIMAL_OUTS
 WHERE @hour < 23
 ```
+
+
 

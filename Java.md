@@ -317,6 +317,20 @@ a.endsWitn("a");	//true
 
 
 
+### Iterator 반복자
+
+```java
+Iterator<String> it = list.iterator();
+
+while(it.hasNext()){
+    answer *= it.next().intValue();
+}
+```
+
+
+
+
+
 ### 기타 주의사항
 
 - char 과 String 의 구분을 확실히 해야한다 -> "" 와 '' 정확히 
